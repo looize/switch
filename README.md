@@ -1,2 +1,2 @@
 # switch
-Application which can allowed a user to add, delete or search a switch in a database
+Application which allow a user to add, delete or search a switch in a database
