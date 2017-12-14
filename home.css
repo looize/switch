@@ -1,0 +1,46 @@
+table{
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+th {
+	text-align: center;
+	background-color: #E2EAED;
+}
+
+header {
+	padding: 10px;
+	margin-bottom: 50px;
+	background-color: #046380;
+}
+
+h1 {
+	margin-left: 20px;
+	color: #FFFFFF;
+}
+
+.button {
+	margin-bottom: 25px;
+	margin-right: 20px;
+}
+
+.button2 {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.legend {
+	margin-bottom: 25px;
+}
+
+#tableau {
+	min-height:450px;
+	height:450px;/*pour IE qui comprend rien, et qui ne reconnait pas min-height, mais qui comprend mal height*/
+	min-width:500px;
+	width:500px;/*pour IE qui comprend rien*/
+	overflow-x:auto;/*pour activer les scrollbarres*/
+}
